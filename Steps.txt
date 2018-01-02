@@ -1,0 +1,18 @@
+Prerequisite
+Node and npm are installef
+All IE related settings shared earlier are done
+
+Steps:
+1. In command promt execute following commands:
+	1. npm install -g protractor
+	2. webdriver-manager update
+	3. webdriver-manager start (Do not close this now)
+
+
+2. Copy the code and in cmd go to the root of the directory where conf.js is present
+3. In "login_test_spec.js" and "profile_test.spec.js" change the URLs of the node application i.e. the sample application shared earlier (app to test should be running).
+4. run command 
+	npm install
+5. run commnd 
+    grunt 
+	(It will start the test case execution)

@@ -1,0 +1,19 @@
+{
+  "name": "protractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "grunt": "^1.0.1",
+    "grunt-protractor-runner": "^5.0.0"
+  },
+  "devDependencies": {
+    "grunt-protractor-webdriver": "^0.2.5"
+  }
+}
